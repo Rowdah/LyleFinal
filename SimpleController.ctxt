@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(String[])
+comment1.target=void\ play()
+comment1.text=\nBegins\ a\ new\ game\ from\ the\ console.\n\n
+numComments=2

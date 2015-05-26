@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=g
+comment0.target=ConsoleViewer(Game)
+comment0.text=\nCreates\ a\ new\ console\ game.\n@param\ g\ a\ Game,\ the\ engine\ that\ actually\ \nprocesses\ all\ the\ input\ and\ \ngenerates\ all\ the\ output.\n\n
+comment1.target=void\ play()
+comment1.text=\nMain\ play\ routine.\ \ Loops\ until\ end\ of\ play.\n\n
+comment2.target=String\ getInput()
+comment2.text=\nPrompts\ for\ input\ and\ reads\ one\ line\ from\ the\ console.\n@return\ a\ single\ line\ of\ input.\n\n
+comment3.params=message
+comment3.target=void\ sendOutput(String)
+comment3.text=\nPrints\ output\ in\ the\ console\ window.\n@param\ message\ the\ message\ to\ print.\nIf\ the\ message\ contains\ embedded\ newlines,\nthey\ will\ appear\ on\ successive\ lines\ of\ the\ console.\n\n
+numComments=4

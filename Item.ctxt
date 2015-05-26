@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=name\ weight\ info
+comment0.target=Item(String,\ int,\ String)
+comment0.text=\nConstructs\ an\ item.\n@param\ name\ The\ name\ of\ the\ item\ (one\ word).\n@param\ weight\ The\ weight\ of\ the\ item\ represented\ by\ an\ int.\n@param\ info\ \ The\ String\ you\ want\ the\ player\ to\ \nread\ when\ he/she\ sees\ the\ item.\ For\ example,\n"Ye\ seeth\ a\ shiny\ ring."\n\n
+comment1.target=String\ getName()
+comment1.text=\nReturns\ the\ name\ of\ the\ item.\n@return\ The\ name\ of\ the\ item\ in\ a\ String.\n\n
+comment2.target=int\ getWeight()
+comment2.text=\nReturns\ an\ items\ weight.\n@return\ An\ int\ representing\ the\ item's\ weight.\n\n
+comment3.target=String\ getInfo()
+comment3.text=\nReturns\ the\ info\ field\ of\ an\ item.\n@return\ A\ String\ sentence\ to\ be\ read\ by\ the\ user\ upon\nseeing\ the\ item.\n\n
+numComments=4

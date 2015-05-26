@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=GameTest()
+comment0.text=\nDefault\ constructor\ for\ test\ class\ GameTest\n\n
+comment1.target=void\ setUp()
+comment1.text=\nSets\ up\ the\ test\ fixture.\n\nCalled\ before\ every\ test\ case\ method.\n\n
+comment10.target=void\ testItem()
+comment2.target=void\ tearDown()
+comment2.text=\nTears\ down\ the\ test\ fixture.\n\nCalled\ after\ every\ test\ case\ method.\n\n
+comment3.target=void\ testWelcome()
+comment4.params=cmd
+comment4.target=String\ getResponse(String)
+comment4.text=\nIssue\ a\ command\ and\ get\ the\ response.\nAs\ a\ side\ effect,\ it\ prints\ its\ output\ on\ the\ terminal\nin\ the\ same\ form\ as\ a\ game\ dialog.\n@param\ cmd\ a\ command\ such\ as\ "help"\n@return\ the\ game\ output\ that\ results\ from\ the\ commmand.\n\n
+comment5.params=cmd\ reply
+comment5.target=void\ testCommand(String,\ String)
+comment5.text=\nTest\ whether\ a\ given\ command\ gets\ the\ expected\ response.\nThis\ method\ only\ succeeds\ if\ the\ reply\ is\ received.\nAs\ a\ side\ effect,\ it\ prints\ its\ output\ on\ the\ terminal\nin\ the\ same\ form\ as\ a\ game\ dialog.\n@param\ cmd\ a\ command\ such\ as\ "help"\n@param\ reply\ a\ portion\ of\ the\ expected\ response.\nIt\ is\ sufficient\ to\ supply\ a\ unique\ word\ or\ phrase\ that\nappears\ in\ the\ output.\n\n
+comment6.params=cmd\ reply\ match
+comment6.target=void\ testCommand(String,\ String,\ boolean)
+comment6.text=\nTest\ whether\ a\ given\ command\ gets\ the\ expected\ response.\nThis\ method\ only\ succeeds\ if\ the\ reply\ is\ received.\nAs\ a\ side\ effect,\ it\ prints\ its\ output\ on\ the\ terminal\nin\ the\ same\ form\ as\ a\ game\ dialog.\n@param\ cmd\ a\ command\ such\ as\ "help"\n@param\ reply\ a\ portion\ of\ the\ expected\ response.\n@param\ match\ true\ if\ you\ want\ the\ response\ to\ match\ the\ reply,\ \nfalse\ if\ you\ don't\nIt\ is\ sufficient\ to\ supply\ a\ unique\ word\ or\ phrase\ that\nappears\ in\ the\ output.\n\n
+comment7.target=void\ testPrison()
+comment8.target=void\ testNoDoor()
+comment9.target=void\ testBye()
+numComments=11
